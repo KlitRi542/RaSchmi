@@ -19,8 +19,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-wrap: wrap;
-      gap: 200px;
+      flex-wrap: nowrap;
+      gap: 80px;
       text-align: center;
     }
 
@@ -34,10 +34,16 @@
       height: 80px;
       object-fit: cover;
       transition: transform 0.3s ease;
+      cursor: pointer;
     }
 
     .header-group img:hover {
       transform: scale(0.9) rotateX(8deg);
+    }
+
+    .header-titel {
+      margin: 0 80px;
+      text-align: center;
     }
 
     .header-titel h1 {
@@ -176,8 +182,12 @@
 
 <header>
   <div class="header-group">
-    <img src="Bild 15.jpg" alt="Bild 15">
-    <img src="Bild 16.jpg" alt="Bild 16">
+    <a href="https://thonny.org/" target="_blank" title="Thonny">
+      <img src="Bild 15.jpg" alt="Thonny">
+    </a>
+    <a href="https://www.python.org/" target="_blank" title="Python">
+      <img src="Bild 16.jpg" alt="Python">
+    </a>
   </div>
 
   <div class="header-titel">
@@ -186,8 +196,12 @@
   </div>
 
   <div class="header-group">
-    <img src="Bild 17.jpg" alt="Bild 17">
-    <img src="Bild 19.jpg" alt="Bild 19">
+    <a href="https://www.lernsoftware-filius.de/" target="_blank" title="Filius">
+      <img src="Bild 17.jpg" alt="Filius">
+    </a>
+    <a href="https://de.libreoffice.org/discover/base/" target="_blank" title="LibreOffice Base">
+      <img src="Bild 19.jpg" alt="LibreOffice Base">
+    </a>
   </div>
 </header>
 
