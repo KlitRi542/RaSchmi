@@ -36,34 +36,34 @@
       margin: auto;
     }
 
-    .quote-box {
-      position: relative; /* für absolute Bildplatzierung */
-      border: 2px dashed #3b82f6;
-      padding: 20px;
-      margin: 30px 0;
-      background-color: #2c2c3a;
-      text-align: center;
-      font-style: italic;
-    }
+.quote-box {
+  position: relative;
+  border: 2px dashed #3b82f6;
+  padding: 40px 20px;
+  margin: 30px 0;
+  background-color: #2c2c3a;
+  text-align: center;
+  font-style: italic;
+  overflow: hidden;
+}
 
-    .quote-box img.ecke-links,
-    .quote-box img.ecke-rechts {
-      position: absolute;
-      width: 40px;
-      height: 40px;
-      object-fit: cover;
-      border-radius: 50%;
-    }
+.quote-box img.ecke-links,
+.quote-box img.ecke-rechts {
+  position: absolute;
+  width: 70px;          /* Größe angepasst */
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  bottom: 10px;         /* Position jetzt unten */
+}
 
-    .quote-box img.ecke-links {
-      top: 10px;
-      left: 10px;
-    }
+.quote-box img.ecke-links {
+  left: 10px;
+}
 
-    .quote-box img.ecke-rechts {
-      top: 10px;
-      right: 10px;
-    }
+.quote-box img.ecke-rechts {
+  right: 10px;
+}
 
     .abschnitt {
       margin-bottom: 50px;
