@@ -17,32 +17,27 @@
       padding: 40px 20px;
       border-bottom: 4px solid #f59e0b;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
       flex-wrap: wrap;
-      gap: 20px;
+      gap: 30px;
+      text-align: center;
     }
 
-    .header-images {
+    .header-group {
       display: flex;
-      flex-direction: column;
       gap: 10px;
     }
 
-    .header-images img {
+    .header-group img {
       width: 80px;
       height: 80px;
       object-fit: cover;
       transition: transform 0.3s ease;
     }
 
-    .header-images img:hover {
+    .header-group img:hover {
       transform: scale(0.9) rotateX(8deg);
-    }
-
-    .header-titel {
-      text-align: center;
-      flex: 1 1 100%;
     }
 
     .header-titel h1 {
@@ -115,7 +110,6 @@
       border-bottom: 2px solid #f59e0b;
       padding-bottom: 10px;
       margin-bottom: 20px;
-      text-align: center;
     }
 
     .bildergalerie {
@@ -181,7 +175,7 @@
 <body>
 
 <header>
-  <div class="header-images">
+  <div class="header-group">
     <img src="Bild 15.jpg" alt="Bild 15">
     <img src="Bild 16.jpg" alt="Bild 16">
   </div>
@@ -191,7 +185,7 @@
     <p>Ein Dankeschön an Herrn Schmidt</p>
   </div>
 
-  <div class="header-images">
+  <div class="header-group">
     <img src="Bild 17.jpg" alt="Bild 17">
     <img src="Bild 19.jpg" alt="Bild 19">
   </div>
